@@ -297,7 +297,7 @@ def jugada(x):
                 cartasjugador2.remove(jugadarandom)
                 descargue.append(jugadarandom)
             elif i in reinasabsolute:
-                k88=random.choice(reinas in cartasjugador1)
+                k88=random.choice(i) 
                 cartasjugador1.remove(k88)
                 cartasjugador2.append(k88)
                 cartasjugador2.remove(jugadarandom)
