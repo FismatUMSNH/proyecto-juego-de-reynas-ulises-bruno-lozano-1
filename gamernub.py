@@ -75,7 +75,7 @@ random.shuffle(pociones)
 
 baraja=[]
 reinas=reinasfive+reinasten+reinasfifteen+reinastwenty
-reinasabsolute=reinas
+reinasabsolute=reinasfive+reinasten+reinasfifteen+reinastwenty
 
 for i in range(len(bufones)-1):
     baraja.append(bufones[i])
